@@ -1,0 +1,84 @@
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.browserpostavok.resources
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.LOGIN.resources
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Main.resources
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Menu12.resources
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.postavki.resources
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Properties.Resources.resources
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Registration.resources
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.UserControl1.resources
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.wb1.resources
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.GenerateResource.cache
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.CoreCompileInputs.cache
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.browserpostavok.resources
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.LOGIN.resources
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Main.resources
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Menu12.resources
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.postavki.resources
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Properties.Resources.resources
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Registration.resources
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.UserControl1.resources
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.wb1.resources
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.GenerateResource.cache
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.CoreCompileInputs.cache
+G:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\Login.mdf
+G:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\Login_log.ldf
+G:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\postavki.mdf
+G:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\postavki_log.ldf
+G:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\PRODUCTSDB.accdb
+G:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.exe.config
+G:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.exe.manifest
+G:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.application
+G:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.exe
+G:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.pdb
+G:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\Bunifu_UI_v1.5.3.dll
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csprojAssemblyReference.cache
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.exe.manifest
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.application
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.CopyComplete
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.exe
+G:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.pdb
+D:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\Login.mdf
+D:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\Login_log.ldf
+D:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\postavki.mdf
+D:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\postavki_log.ldf
+D:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\PRODUCTSDB.accdb
+D:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.exe.config
+D:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.exe.manifest
+D:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.application
+D:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.exe
+D:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.pdb
+D:\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\Bunifu_UI_v1.5.3.dll
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csprojAssemblyReference.cache
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.exe.manifest
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.application
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.CopyComplete
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.exe
+D:\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.pdb
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\Login.mdf
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\Login_log.ldf
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\postavki.mdf
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\postavki_log.ldf
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\PRODUCTSDB.accdb
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.exe.config
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.exe.manifest
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.application
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.exe
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.pdb
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\Bunifu_UI_v1.5.3.dll
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csprojAssemblyReference.cache
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.browserpostavok.resources
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.LOGIN.resources
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Main.resources
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Menu12.resources
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.postavki.resources
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Properties.Resources.resources
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Registration.resources
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.UserControl1.resources
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.wb1.resources
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.GenerateResource.cache
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.exe.manifest
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.application
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.CopyComplete
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.exe
+C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.pdb
