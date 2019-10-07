@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="postavkinormalDataSet" targetNamespace="http://tempuri.org/postavkinormalDataSet.xsd" xmlns:mstns="http://tempuri.org/postavkinormalDataSet.xsd" xmlns="http://tempuri.org/postavkinormalDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="postavkinormalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="postavkinormalConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.AIS_Cafe.Properties.Settings.GlobalReference.Default.postavkinormalConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TableTableAdapter" GeneratorDataComponentClassName="TableTableAdapter" Name="Table" UserDataComponentName="TableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="postavkinormalConnectionString (Settings)" DbObjectName="dbo.[Table]" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT КодПоставщика, КодПоставки, ДатаПоставки, ВесГруза, ФирмаПодрядчик, Подтверждение FROM dbo.[Table]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="КодПоставщика" DataSetColumn="КодПоставщика" />
+              <Mapping SourceColumn="КодПоставки" DataSetColumn="КодПоставки" />
+              <Mapping SourceColumn="ДатаПоставки" DataSetColumn="ДатаПоставки" />
+              <Mapping SourceColumn="ВесГруза" DataSetColumn="ВесГруза" />
+              <Mapping SourceColumn="ФирмаПодрядчик" DataSetColumn="ФирмаПодрядчик" />
+              <Mapping SourceColumn="Подтверждение" DataSetColumn="Подтверждение" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="postavkinormalDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="postavkinormalDataSet" msprop:Generator_UserDSName="postavkinormalDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_TablePropName="Table" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_UserTableName="Table" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowClassName="TableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="КодПоставщика" msprop:Generator_ColumnVarNameInTable="columnКодПоставщика" msprop:Generator_ColumnPropNameInRow="КодПоставщика" msprop:Generator_ColumnPropNameInTable="КодПоставщикаColumn" msprop:Generator_UserColumnName="КодПоставщика" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="КодПоставки" msprop:Generator_ColumnVarNameInTable="columnКодПоставки" msprop:Generator_ColumnPropNameInRow="КодПоставки" msprop:Generator_ColumnPropNameInTable="КодПоставкиColumn" msprop:Generator_UserColumnName="КодПоставки" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ДатаПоставки" msprop:Generator_ColumnVarNameInTable="columnДатаПоставки" msprop:Generator_ColumnPropNameInRow="ДатаПоставки" msprop:Generator_ColumnPropNameInTable="ДатаПоставкиColumn" msprop:Generator_UserColumnName="ДатаПоставки" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ВесГруза" msprop:Generator_ColumnVarNameInTable="columnВесГруза" msprop:Generator_ColumnPropNameInRow="ВесГруза" msprop:Generator_ColumnPropNameInTable="ВесГрузаColumn" msprop:Generator_UserColumnName="ВесГруза" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ФирмаПодрядчик" msprop:Generator_ColumnVarNameInTable="columnФирмаПодрядчик" msprop:Generator_ColumnPropNameInRow="ФирмаПодрядчик" msprop:Generator_ColumnPropNameInTable="ФирмаПодрядчикColumn" msprop:Generator_UserColumnName="ФирмаПодрядчик" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Подтверждение" msprop:Generator_ColumnVarNameInTable="columnПодтверждение" msprop:Generator_ColumnPropNameInRow="Подтверждение" msprop:Generator_ColumnPropNameInTable="ПодтверждениеColumn" msprop:Generator_UserColumnName="Подтверждение" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

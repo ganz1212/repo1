@@ -45,6 +45,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menu121 = new AIS_Cafe.Menu12();
             this.userControl11 = new AIS_Cafe.UserControl1();
+            this.postavkiDataSet1 = new AIS_Cafe.postavkiDataSet();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -52,6 +53,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postavkiDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -282,6 +284,11 @@
             this.userControl11.Size = new System.Drawing.Size(825, 514);
             this.userControl11.TabIndex = 21;
             // 
+            // postavkiDataSet1
+            // 
+            this.postavkiDataSet1.DataSetName = "postavkiDataSet";
+            this.postavkiDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -310,6 +317,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postavkiDataSet1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -331,5 +339,6 @@
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton4;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton3;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton5;
+        private postavkiDataSet postavkiDataSet1;
     }
 }

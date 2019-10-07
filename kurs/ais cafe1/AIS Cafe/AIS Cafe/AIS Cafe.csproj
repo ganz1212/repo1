@@ -110,10 +110,21 @@
     <Compile Include="postavki.Designer.cs">
       <DependentUpon>postavki.cs</DependentUpon>
     </Compile>
+    <Compile Include="postavki123.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="postavki123.Designer.cs">
+      <DependentUpon>postavki123.cs</DependentUpon>
+    </Compile>
     <Compile Include="postavkiDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>postavkiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="postavkinormalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>postavkinormalDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="PRODUCTSDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -155,6 +166,9 @@
     <EmbeddedResource Include="postavki.resx">
       <DependentUpon>postavki.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="postavki123.resx">
+      <DependentUpon>postavki123.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -185,6 +199,17 @@
     </None>
     <None Include="postavkiDataSet.xss">
       <DependentUpon>postavkiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="postavkinormalDataSet.xsc">
+      <DependentUpon>postavkinormalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="postavkinormalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>postavkinormalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="postavkinormalDataSet.xss">
+      <DependentUpon>postavkinormalDataSet.xsd</DependentUpon>
     </None>
     <None Include="PRODUCTSDBDataSet.xsc">
       <DependentUpon>PRODUCTSDBDataSet.xsd</DependentUpon>
@@ -226,6 +251,13 @@
     </Content>
     <Content Include="postavki.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="postavkinormal.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="postavkinormal_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>postavkinormal.mdf</DependentUpon>
     </Content>
     <Content Include="postavki_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

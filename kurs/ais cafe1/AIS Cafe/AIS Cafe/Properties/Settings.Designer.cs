@@ -43,5 +43,16 @@ namespace AIS_Cafe.Properties {
                 return ((string)(this["PRODUCTSDBConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\postavkinorma" +
+            "l.mdf;Integrated Security=True")]
+        public string postavkinormalConnectionString {
+            get {
+                return ((string)(this["postavkinormalConnectionString"]));
+            }
+        }
     }
 }

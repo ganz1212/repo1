@@ -40,8 +40,7 @@ namespace AIS_Cafe
 
         private void bunifuThinButton23_Click(object sender, EventArgs e)
         {
-            postavki ifrm = new postavki();
-            ifrm.Show(); // отображаем postavki
+            
             panel2.Height = bunifuThinButton23.Height;
             panel2.Top = bunifuThinButton23.Top;
         }
