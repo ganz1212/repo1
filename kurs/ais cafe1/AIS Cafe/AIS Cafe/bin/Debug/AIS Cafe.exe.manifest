@@ -80,7 +80,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>wtZrfERIZIyX+FH/GXly1ya2eAIBTsYGfLxBAbKBADk=</dsig:DigestValue>
+      <dsig:DigestValue>5WmbhdrqPByrXOsrYzZwj4rlSsiKrJ7aH1iBFdFs49Y=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Login_log.ldf" size="8388608" writeableType="applicationData">
@@ -89,7 +89,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>SlqzAn1dcy4FOLItVqSSfyzW6B9mmKD1e2GbL6VkJhA=</dsig:DigestValue>
+      <dsig:DigestValue>+jGxeFsSak+9h37naEWmmusaIHd/43vMcI9x59cbuP8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="postavki.mdf" size="8388608" writeableType="applicationData">
