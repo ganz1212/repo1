@@ -82,3 +82,34 @@ C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS C
 C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.CopyComplete
 C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.exe
 C:\Users\User\Documents\ProgramsVS\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.pdb
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\Login.mdf
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\Login_log.ldf
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\postavki.mdf
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\postavkinormal.mdf
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\postavkinormal_log.ldf
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\postavki_log.ldf
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\PRODUCTSDB.accdb
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.exe.config
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.exe.manifest
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.application
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.exe
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\AIS Cafe.pdb
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Release\Bunifu_UI_v1.5.3.dll
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csprojAssemblyReference.cache
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.browserpostavok.resources
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.LOGIN.resources
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Main.resources
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Menu12.resources
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.postavki.resources
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.postavki123.resources
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Properties.Resources.resources
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.Registration.resources
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.UserControl1.resources
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS_Cafe.wb1.resources
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.GenerateResource.cache
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.exe.manifest
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.application
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.csproj.CopyComplete
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.exe
+C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Release\AIS Cafe.pdb

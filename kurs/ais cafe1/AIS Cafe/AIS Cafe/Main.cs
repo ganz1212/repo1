@@ -43,6 +43,8 @@ namespace AIS_Cafe
             
             panel2.Height = bunifuThinButton23.Height;
             panel2.Top = bunifuThinButton23.Top;
+            postavki1231.BringToFront();
+            postavki1231.Visible = true;
         }
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
@@ -52,10 +54,6 @@ namespace AIS_Cafe
             menu121.BringToFront();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
@@ -69,8 +67,7 @@ namespace AIS_Cafe
         {
             panel2.Height = bunifuThinButton24.Height;
             panel2.Top = bunifuThinButton24.Top;
-            browserpostavok ifrm2 = new browserpostavok();
-            ifrm2.Show(); // отображаем browserpostavok
+            
         }
 
         private void bunifuImageButton3_Click(object sender, EventArgs e)

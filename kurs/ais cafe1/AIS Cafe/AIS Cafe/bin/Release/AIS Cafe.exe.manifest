@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AIS Cafe.exe" size="4546480">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AIS Cafe.exe" size="10498992">
       <assemblyIdentity name="AIS Cafe" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>kiUOUl7JI4TcpyvPYR5s826ql7NDkdCrHpH4+VG/JDI=</dsig:DigestValue>
+        <dsig:DigestValue>eK6CxZcaUCbeS3tRNd21+zGrCtPd7Q2qShfLQH51taA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -65,13 +65,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="AIS Cafe.exe.config" size="807">
+  <file name="AIS Cafe.exe.config" size="1085">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>gpY5++0y8VmZxYPqO1Ok8ixcT0EzY4B2cklspnsVQGk=</dsig:DigestValue>
+      <dsig:DigestValue>bL9iDGWaG/gTZifrrSOA8XRsCQ/E8e5daOvBD19WhRc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Login.mdf" size="8388608" writeableType="applicationData">
@@ -80,7 +80,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Xa0rtMayGU1w2cVBcC7pAvqzfl4Uwt27rvcIk93lobU=</dsig:DigestValue>
+      <dsig:DigestValue>BQCmoa7FsR9io0Hp5tLUwuq6RvvzCpXrhArJVYVnk9o=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Login_log.ldf" size="8388608" writeableType="applicationData">
@@ -89,7 +89,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>0/nJRUmBoAR9dp0cYACFw7N4wea4ZRI5rX+D2LzSz6U=</dsig:DigestValue>
+      <dsig:DigestValue>cgmYlmPoskK8L7L3BO70jqlitXdFSf/DwXxEVqFsLxM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="postavki.mdf" size="8388608" writeableType="applicationData">
@@ -98,7 +98,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Dxmh8r+NaZPURzSL1Vh81p7lmr7zGvF3S9K+xheWSYI=</dsig:DigestValue>
+      <dsig:DigestValue>PzIjMD/O52tlPFw4y4NSe/ajE8sWXe2bXSfdIb7o8tM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="postavki_log.ldf" size="8388608" writeableType="applicationData">
@@ -107,7 +107,25 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>0i2Sasn82ntbaDxrXMOWvX6cREMlJM+aBEv9oSvbedc=</dsig:DigestValue>
+      <dsig:DigestValue>yQvFF3z7YOa0cm/gWRUtsY7RtS0p/+tjv9ZIM05q6Po=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="postavkinormal.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>es97l08FMMACLfHorACX8HfCJhOBONN18oe8Hzahq1Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="postavkinormal_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ttjD4+1rVrp35bD+mQhLqMqj3Um1MmQKyU9DAU3e9io=</dsig:DigestValue>
     </hash>
   </file>
   <file name="PRODUCTSDB.accdb" size="1232896">

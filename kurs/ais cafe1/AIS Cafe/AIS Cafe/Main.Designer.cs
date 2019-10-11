@@ -43,9 +43,10 @@
             this.bunifuImageButton3 = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.menu121 = new AIS_Cafe.Menu12();
-            this.userControl11 = new AIS_Cafe.UserControl1();
             this.postavkiDataSet1 = new AIS_Cafe.postavkiDataSet();
+            this.userControl11 = new AIS_Cafe.UserControl1();
+            this.postavki1231 = new AIS_Cafe.postavki123();
+            this.menu121 = new AIS_Cafe.Menu12();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -205,7 +206,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1111, 44);
             this.panel1.TabIndex = 17;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // bunifuImageButton5
             // 
@@ -267,14 +267,10 @@
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
             // 
-            // menu121
+            // postavkiDataSet1
             // 
-            this.menu121.AutoScroll = true;
-            this.menu121.BackColor = System.Drawing.Color.LightSlateGray;
-            this.menu121.Location = new System.Drawing.Point(286, 77);
-            this.menu121.Name = "menu121";
-            this.menu121.Size = new System.Drawing.Size(823, 514);
-            this.menu121.TabIndex = 20;
+            this.postavkiDataSet1.DataSetName = "postavkiDataSet";
+            this.postavkiDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // userControl11
             // 
@@ -284,10 +280,22 @@
             this.userControl11.Size = new System.Drawing.Size(825, 514);
             this.userControl11.TabIndex = 21;
             // 
-            // postavkiDataSet1
+            // postavki1231
             // 
-            this.postavkiDataSet1.DataSetName = "postavkiDataSet";
-            this.postavkiDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.postavki1231.Location = new System.Drawing.Point(286, 77);
+            this.postavki1231.Name = "postavki1231";
+            this.postavki1231.Size = new System.Drawing.Size(823, 514);
+            this.postavki1231.TabIndex = 23;
+            this.postavki1231.Visible = false;
+            // 
+            // menu121
+            // 
+            this.menu121.AutoScroll = true;
+            this.menu121.BackColor = System.Drawing.Color.LightSlateGray;
+            this.menu121.Location = new System.Drawing.Point(286, 77);
+            this.menu121.Name = "menu121";
+            this.menu121.Size = new System.Drawing.Size(823, 514);
+            this.menu121.TabIndex = 20;
             // 
             // Main
             // 
@@ -296,14 +304,15 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1121, 649);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.menu121);
-            this.Controls.Add(this.userControl11);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.bunifuThinButton24);
             this.Controls.Add(this.bunifuThinButton23);
             this.Controls.Add(this.bunifuThinButton22);
             this.Controls.Add(this.bunifuThinButton21);
+            this.Controls.Add(this.postavki1231);
+            this.Controls.Add(this.menu121);
+            this.Controls.Add(this.userControl11);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
@@ -340,5 +349,6 @@
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton3;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton5;
         private postavkiDataSet postavkiDataSet1;
+        private postavki123 postavki1231;
     }
 }
