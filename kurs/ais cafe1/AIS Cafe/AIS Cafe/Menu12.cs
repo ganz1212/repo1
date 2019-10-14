@@ -11,11 +11,8 @@ namespace AIS_Cafe
         }
 
         //Для подсчета суммы заказа	
-        
-        int count; // рассчёт
-        double a, b, c, d, r;
-        bool znak = true;
-        int q= 230, w = 150, x = 100;
+
+       
         //
 
 
@@ -23,82 +20,78 @@ namespace AIS_Cafe
         private void bunifuTileButton5_Click(object sender, EventArgs e)
         {
             //греч.салат
-            bunifuMetroTextbox1.Text = bunifuMetroTextbox1.Text + 230;
-            int q = 230;
+            bunifuMetroTextbox1.Text += 230;
+            zakaztextbox.Text += "греч.салат" + Environment.NewLine;
         }
 
         private void bunifuTileButton2_Click(object sender, EventArgs e)
         {
             //кофе
-            double a = 60;
-            bunifuMetroTextbox1.Text = bunifuMetroTextbox1.Text + 60;
-            count = 1;
+            bunifuMetroTextbox1.Text += 60;
+            zakaztextbox.Text += "кофе" + Environment.NewLine;
+
         }
 
         private void bunifuTileButton1_Click(object sender, EventArgs e)
         {
             //чизбургер
+            bunifuMetroTextbox1.Text += 150;
+            zakaztextbox.Text += "чизбургер" + Environment.NewLine;
             
-            int w = 150;
-            bunifuMetroTextbox1.Text = bunifuMetroTextbox1.Text + 150;
+
         }
 
         private void bunifuTileButton4_Click(object sender, EventArgs e)
         {
             //клуб.милкшейк
-            int x = 100;
-            bunifuMetroTextbox1.Text = bunifuMetroTextbox1.Text + 100;
+            bunifuMetroTextbox1.Text += 100;
+            zakaztextbox.Text += "клуб.милкшейк" + Environment.NewLine;
+            
         }
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            //плюс
-            int q = int.Parse(bunifuMetroTextbox1.Text);           
-            int w = int.Parse(bunifuMetroTextbox1.Text);
-            int x = int.Parse(bunifuMetroTextbox1.Text);
-
-            count = 1;
-            bunifuMetroTextbox1.Text = q.ToString() + "+";
-            bunifuMetroTextbox1.Text = w.ToString() + "+";
-            bunifuMetroTextbox1.Text = x.ToString() + "+";
-
-            znak = true;
-
+            //плюс           
+            if (bunifuMetroTextbox1.Text == "")
+                MessageBox.Show("Данные не введены");
+            else
+            {
+                ch = '+';
+                sum += Double.Parse(bunifuMetroTextbox1.Text);
+                bunifuMetroTextbox1.Text = "+";
+            }
         }
 
  
         private void bunifuTileButton3_Click(object sender, EventArgs e)
         {
             //пончики
-            bunifuMetroTextbox1.Text = bunifuMetroTextbox1.Text + 80;           
+            bunifuMetroTextbox1.Text += 80;
+            zakaztextbox.Text += "пончики" + Environment.NewLine;
+
         }
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
             //сброс
-            string rez = "";
-            byte i = 0;
-            while (i < bunifuMetroTextbox1.Text.Length - 1) // Пока i меньше длины textBox-1 
-            {
-                rez += bunifuMetroTextbox1.Text[i];
-                i++;
-            }
-            bunifuMetroTextbox1.Text = rez; // Переменная rez = textBox без последнего символа
-        }
+            bunifuMetroTextbox1.Text = "";
+            sum = 0;
+            zakaztextbox.Text = "";
+    }
 
         private void bunifuThinButton23_Click(object sender, EventArgs e)
         {
-            calculate();
-            bunifuMetroTextbox1.Text = "";
-        }
-        private void calculate()
-        {
-            int y = q + w;
-                y = x + q;
-                y = x + w;
+            //вывод суммы
+            if (ch == '+')
+                sum += Double.Parse(bunifuMetroTextbox1.Text);
+            bunifuMetroTextbox1.Text = sum.ToString();
             
-            label1.Text = y.ToString();
+            
+        }
 
+        private void label1_Text(object sender, EventArgs e)
+        {
+            
         }
     }
 }

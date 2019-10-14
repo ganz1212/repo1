@@ -58,7 +58,6 @@
             this.LoginTextbox1.Size = new System.Drawing.Size(272, 44);
             this.LoginTextbox1.TabIndex = 4;
             this.LoginTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.LoginTextbox1.OnValueChanged += new System.EventHandler(this.LoginTextbox1_OnValueChanged);
             this.LoginTextbox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.LoginTextbox1_KeyPress);
             // 
             // PasswordTextbox2
@@ -78,7 +77,6 @@
             this.PasswordTextbox2.Size = new System.Drawing.Size(272, 44);
             this.PasswordTextbox2.TabIndex = 5;
             this.PasswordTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.PasswordTextbox2.OnValueChanged += new System.EventHandler(this.PasswordTextbox2_OnValueChanged);
             this.PasswordTextbox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.PasswordTextbox2_KeyPress);
             // 
             // label1

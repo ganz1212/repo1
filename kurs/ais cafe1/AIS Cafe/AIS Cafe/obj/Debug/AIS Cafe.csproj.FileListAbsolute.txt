@@ -162,3 +162,31 @@ C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Deb
 C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS_Cafe.postavki123.resources
 C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\postavkinormal.mdf
 C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\postavkinormal_log.ldf
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\Login.mdf
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\Login_log.ldf
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\postavki.mdf
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\postavkinormal.mdf
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\postavkinormal_log.ldf
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\postavki_log.ldf
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\AIS Cafe.exe.config
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\AIS Cafe.exe.manifest
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\AIS Cafe.application
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\AIS Cafe.exe
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\bin\Debug\AIS Cafe.pdb
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS_Cafe.LOGIN.resources
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS_Cafe.Main.resources
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS_Cafe.Menu12.resources
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS_Cafe.postavki123.resources
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS_Cafe.Properties.Resources.resources
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS_Cafe.Registration.resources
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS_Cafe.wb1.resources
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS Cafe.csproj.GenerateResource.cache
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS Cafe.csproj.CoreCompileInputs.cache
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS Cafe.exe.manifest
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS Cafe.application
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS Cafe.csproj.CopyComplete
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS Cafe.exe
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS Cafe.pdb
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS_Cafe.postavshikiUC.resources
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS_Cafe.produktiUC.resources
+C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\obj\Debug\AIS Cafe.csprojAssemblyReference.cache

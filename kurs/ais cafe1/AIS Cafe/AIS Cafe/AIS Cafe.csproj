@@ -80,12 +80,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="browserpostavok.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="browserpostavok.Designer.cs">
-      <DependentUpon>browserpostavok.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,12 +98,6 @@
     <Compile Include="Menu12.Designer.cs">
       <DependentUpon>Menu12.cs</DependentUpon>
     </Compile>
-    <Compile Include="postavki.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="postavki.Designer.cs">
-      <DependentUpon>postavki.cs</DependentUpon>
-    </Compile>
     <Compile Include="postavki123.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -126,10 +114,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>postavkinormalDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="PRODUCTSDBDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PRODUCTSDBDataSet.xsd</DependentUpon>
+    <Compile Include="postavshikiUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="postavshikiUC.Designer.cs">
+      <DependentUpon>postavshikiUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="produktiUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="produktiUC.Designer.cs">
+      <DependentUpon>produktiUC.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -139,21 +134,12 @@
     <Compile Include="Registration.Designer.cs">
       <DependentUpon>Registration.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </Compile>
     <Compile Include="wb1.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="wb1.Designer.cs">
       <DependentUpon>wb1.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="browserpostavok.resx">
-      <DependentUpon>browserpostavok.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -163,11 +149,14 @@
     <EmbeddedResource Include="Menu12.resx">
       <DependentUpon>Menu12.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="postavki.resx">
-      <DependentUpon>postavki.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="postavki123.resx">
       <DependentUpon>postavki123.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="postavshikiUC.resx">
+      <DependentUpon>postavshikiUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="produktiUC.resx">
+      <DependentUpon>produktiUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -181,9 +170,6 @@
     </Compile>
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl1.resx">
-      <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="wb1.resx">
       <DependentUpon>wb1.cs</DependentUpon>
@@ -210,17 +196,6 @@
     </None>
     <None Include="postavkinormalDataSet.xss">
       <DependentUpon>postavkinormalDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="PRODUCTSDBDataSet.xsc">
-      <DependentUpon>PRODUCTSDBDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="PRODUCTSDBDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PRODUCTSDBDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PRODUCTSDBDataSet.xss">
-      <DependentUpon>PRODUCTSDBDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -262,9 +237,6 @@
     <Content Include="postavki_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>postavki.mdf</DependentUpon>
-    </Content>
-    <Content Include="PRODUCTSDB.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>

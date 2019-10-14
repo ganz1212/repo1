@@ -38,15 +38,17 @@
             this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.bunifuImageButton5 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton4 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton3 = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.postavkiDataSet1 = new AIS_Cafe.postavkiDataSet();
-            this.userControl11 = new AIS_Cafe.UserControl1();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.postavki1231 = new AIS_Cafe.postavki123();
             this.menu121 = new AIS_Cafe.Menu12();
+            this.postavshikiUC1 = new AIS_Cafe.postavshikiUC();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -197,6 +199,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSlateGray;
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.bunifuImageButton5);
             this.panel1.Controls.Add(this.bunifuImageButton4);
             this.panel1.Controls.Add(this.bunifuImageButton3);
@@ -206,6 +209,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1111, 44);
             this.panel1.TabIndex = 17;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(10, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(74, 24);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "label1";
             // 
             // bunifuImageButton5
             // 
@@ -272,19 +285,15 @@
             this.postavkiDataSet1.DataSetName = "postavkiDataSet";
             this.postavkiDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // userControl11
+            // timer1
             // 
-            this.userControl11.BackColor = System.Drawing.Color.White;
-            this.userControl11.Location = new System.Drawing.Point(286, 77);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(825, 514);
-            this.userControl11.TabIndex = 21;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // postavki1231
             // 
-            this.postavki1231.Location = new System.Drawing.Point(286, 77);
+            this.postavki1231.Location = new System.Drawing.Point(286, 49);
             this.postavki1231.Name = "postavki1231";
-            this.postavki1231.Size = new System.Drawing.Size(823, 514);
+            this.postavki1231.Size = new System.Drawing.Size(823, 588);
             this.postavki1231.TabIndex = 23;
             this.postavki1231.Visible = false;
             // 
@@ -292,10 +301,17 @@
             // 
             this.menu121.AutoScroll = true;
             this.menu121.BackColor = System.Drawing.Color.LightSlateGray;
-            this.menu121.Location = new System.Drawing.Point(286, 77);
+            this.menu121.Location = new System.Drawing.Point(286, 49);
             this.menu121.Name = "menu121";
-            this.menu121.Size = new System.Drawing.Size(823, 514);
+            this.menu121.Size = new System.Drawing.Size(823, 572);
             this.menu121.TabIndex = 20;
+            // 
+            // postavshikiUC1
+            // 
+            this.postavshikiUC1.Location = new System.Drawing.Point(286, 49);
+            this.postavshikiUC1.Name = "postavshikiUC1";
+            this.postavshikiUC1.Size = new System.Drawing.Size(823, 572);
+            this.postavshikiUC1.TabIndex = 24;
             // 
             // Main
             // 
@@ -310,9 +326,9 @@
             this.Controls.Add(this.bunifuThinButton23);
             this.Controls.Add(this.bunifuThinButton22);
             this.Controls.Add(this.bunifuThinButton21);
-            this.Controls.Add(this.postavki1231);
             this.Controls.Add(this.menu121);
-            this.Controls.Add(this.userControl11);
+            this.Controls.Add(this.postavshikiUC1);
+            this.Controls.Add(this.postavki1231);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
@@ -322,6 +338,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
@@ -343,12 +360,14 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private Menu12 menu121;
-        private UserControl1 userControl11;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton4;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton3;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton5;
         private postavkiDataSet postavkiDataSet1;
         private postavki123 postavki1231;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label1;
+        private postavshikiUC postavshikiUC1;
     }
 }

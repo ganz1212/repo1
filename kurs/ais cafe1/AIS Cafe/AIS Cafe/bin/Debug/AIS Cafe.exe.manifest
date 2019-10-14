@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AIS Cafe.exe" size="10512304">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AIS Cafe.exe" size="10418096">
       <assemblyIdentity name="AIS Cafe" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FhCgW9OM/wbPLhBuaTrhvo5ws3XsPM+B2UzYUx+/Mf8=</dsig:DigestValue>
+        <dsig:DigestValue>BLJFyJYCAnGqtq+i8Hlm+Jf5/gOuuh15hVPvdX/dCcM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -80,7 +80,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>5WmbhdrqPByrXOsrYzZwj4rlSsiKrJ7aH1iBFdFs49Y=</dsig:DigestValue>
+      <dsig:DigestValue>JavM1XFF1MSpXZBpYm3BQ+DqYSh1CK24a6RCRgIBw6A=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Login_log.ldf" size="8388608" writeableType="applicationData">
@@ -89,7 +89,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>+jGxeFsSak+9h37naEWmmusaIHd/43vMcI9x59cbuP8=</dsig:DigestValue>
+      <dsig:DigestValue>7lg9spREmaKEoT9oLhEEA/hIyxMdEbLqf3YnGc0Wow4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="postavki.mdf" size="8388608" writeableType="applicationData">
@@ -98,7 +98,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>PzIjMD/O52tlPFw4y4NSe/ajE8sWXe2bXSfdIb7o8tM=</dsig:DigestValue>
+      <dsig:DigestValue>dMuvirHLqB+EYoe7qT9GEhHQfPj11MVrE3/TTg5K/vM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="postavki_log.ldf" size="8388608" writeableType="applicationData">
@@ -107,7 +107,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>yQvFF3z7YOa0cm/gWRUtsY7RtS0p/+tjv9ZIM05q6Po=</dsig:DigestValue>
+      <dsig:DigestValue>KQQvCL3tkKIPwHvgwMJ2H+IaxOUYgo+OuCICVCEngy0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="postavkinormal.mdf" size="8388608" writeableType="applicationData">
@@ -116,7 +116,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>es97l08FMMACLfHorACX8HfCJhOBONN18oe8Hzahq1Q=</dsig:DigestValue>
+      <dsig:DigestValue>ydbznd3gspFotxd/vYJ//KuPq79oMOiPH+ge6PywQmc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="postavkinormal_log.ldf" size="8388608" writeableType="applicationData">
@@ -125,16 +125,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ttjD4+1rVrp35bD+mQhLqMqj3Um1MmQKyU9DAU3e9io=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="PRODUCTSDB.accdb" size="1232896">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>tuhRc4HS8uzgDwTRuUtVGTp9V9absiM9dQLzujQmi0s=</dsig:DigestValue>
+      <dsig:DigestValue>UKtYoTA5KAiblAhizBolpxQTSvAQ5MDCQRSpwJnnQrI=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

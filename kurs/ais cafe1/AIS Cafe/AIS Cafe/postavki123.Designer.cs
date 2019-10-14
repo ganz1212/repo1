@@ -30,18 +30,18 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.postavkinormalDataSet = new AIS_Cafe.postavkinormalDataSet();
-            this.tableBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tableTableAdapter = new AIS_Cafe.postavkinormalDataSetTableAdapters.TableTableAdapter();
             this.кодПоставщикаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодПоставкиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.датаПоставкиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.весГрузаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.фирмаПодрядчикDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.подтверждениеDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tableBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.postavkinormalDataSet = new AIS_Cafe.postavkinormalDataSet();
+            this.tableTableAdapter = new AIS_Cafe.postavkinormalDataSetTableAdapters.TableTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.postavkinormalDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postavkinormalDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -56,24 +56,10 @@
             this.фирмаПодрядчикDataGridViewTextBoxColumn,
             this.подтверждениеDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.tableBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 43);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(733, 380);
+            this.dataGridView1.Size = new System.Drawing.Size(733, 340);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // postavkinormalDataSet
-            // 
-            this.postavkinormalDataSet.DataSetName = "postavkinormalDataSet";
-            this.postavkinormalDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tableBindingSource
-            // 
-            this.tableBindingSource.DataMember = "Table";
-            this.tableBindingSource.DataSource = this.postavkinormalDataSet;
-            // 
-            // tableTableAdapter
-            // 
-            this.tableTableAdapter.ClearBeforeFill = true;
             // 
             // кодПоставщикаDataGridViewTextBoxColumn
             // 
@@ -113,6 +99,20 @@
             this.подтверждениеDataGridViewTextBoxColumn.HeaderText = "Подтверждение";
             this.подтверждениеDataGridViewTextBoxColumn.Name = "подтверждениеDataGridViewTextBoxColumn";
             // 
+            // tableBindingSource
+            // 
+            this.tableBindingSource.DataMember = "Table";
+            this.tableBindingSource.DataSource = this.postavkinormalDataSet;
+            // 
+            // postavkinormalDataSet
+            // 
+            this.postavkinormalDataSet.DataSetName = "postavkinormalDataSet";
+            this.postavkinormalDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tableTableAdapter
+            // 
+            this.tableTableAdapter.ClearBeforeFill = true;
+            // 
             // postavki123
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,8 +121,8 @@
             this.Name = "postavki123";
             this.Size = new System.Drawing.Size(736, 383);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.postavkinormalDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postavkinormalDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }

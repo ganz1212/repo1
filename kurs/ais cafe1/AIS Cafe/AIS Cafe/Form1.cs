@@ -33,7 +33,7 @@ namespace AIS_Cafe
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\Login.mdf;Integrated Security=True");
+            SqlConnection sqlcon = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\github\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\Login.mdf; Integrated Security = True");
             string query = "Select * FROM [Table] WHERE username = '" + LoginTextbox1.Text.Trim() + "' and password = '" + PasswordTextbox2.Text.Trim() + "'";
             SqlDataAdapter sda = new SqlDataAdapter(query, sqlcon);
             DataTable dtbl = new DataTable();
@@ -51,15 +51,6 @@ namespace AIS_Cafe
 
         }
 
-        private void LoginTextbox1_OnValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PasswordTextbox2_OnValueChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
