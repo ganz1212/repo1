@@ -12,7 +12,7 @@ namespace AIS_Cafe
 
         //Для подсчета суммы заказа	
 
-       
+
         //
 
 
@@ -37,7 +37,7 @@ namespace AIS_Cafe
             //чизбургер
             bunifuMetroTextbox1.Text += 150;
             zakaztextbox.Text += "чизбургер" + Environment.NewLine;
-            
+
 
         }
 
@@ -46,7 +46,7 @@ namespace AIS_Cafe
             //клуб.милкшейк
             bunifuMetroTextbox1.Text += 100;
             zakaztextbox.Text += "клуб.милкшейк" + Environment.NewLine;
-            
+
         }
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
@@ -62,7 +62,7 @@ namespace AIS_Cafe
             }
         }
 
- 
+
         private void bunifuTileButton3_Click(object sender, EventArgs e)
         {
             //пончики
@@ -77,7 +77,7 @@ namespace AIS_Cafe
             bunifuMetroTextbox1.Text = "";
             sum = 0;
             zakaztextbox.Text = "";
-    }
+        }
 
         private void bunifuThinButton23_Click(object sender, EventArgs e)
         {
@@ -85,13 +85,13 @@ namespace AIS_Cafe
             if (ch == '+')
                 sum += Double.Parse(bunifuMetroTextbox1.Text);
             bunifuMetroTextbox1.Text = sum.ToString();
-            
-            
+            label2.Text = bunifuMetroTextbox1.Text;
+
+
         }
 
-        private void label1_Text(object sender, EventArgs e)
-        {
-            
-        }
+
+
+
     }
 }

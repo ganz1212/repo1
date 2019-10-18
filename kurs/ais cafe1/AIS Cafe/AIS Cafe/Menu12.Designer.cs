@@ -40,6 +40,7 @@
             this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.label1 = new System.Windows.Forms.Label();
             this.zakaztextbox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bunifuTileButton1
@@ -57,7 +58,7 @@
             this.bunifuTileButton1.ImageZoom = 90;
             this.bunifuTileButton1.LabelPosition = 50;
             this.bunifuTileButton1.LabelText = "Чизбургер - 150Р";
-            this.bunifuTileButton1.Location = new System.Drawing.Point(151, 58);
+            this.bunifuTileButton1.Location = new System.Drawing.Point(152, 65);
             this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(6);
             this.bunifuTileButton1.Name = "bunifuTileButton1";
             this.bunifuTileButton1.Size = new System.Drawing.Size(133, 168);
@@ -79,7 +80,7 @@
             this.bunifuTileButton2.ImageZoom = 90;
             this.bunifuTileButton2.LabelPosition = 50;
             this.bunifuTileButton2.LabelText = "Кофе 0.3 - 60Р";
-            this.bunifuTileButton2.Location = new System.Drawing.Point(6, 238);
+            this.bunifuTileButton2.Location = new System.Drawing.Point(7, 245);
             this.bunifuTileButton2.Margin = new System.Windows.Forms.Padding(6);
             this.bunifuTileButton2.Name = "bunifuTileButton2";
             this.bunifuTileButton2.Size = new System.Drawing.Size(133, 168);
@@ -101,7 +102,7 @@
             this.bunifuTileButton3.ImageZoom = 90;
             this.bunifuTileButton3.LabelPosition = 60;
             this.bunifuTileButton3.LabelText = "Пончики - 80Р";
-            this.bunifuTileButton3.Location = new System.Drawing.Point(296, 238);
+            this.bunifuTileButton3.Location = new System.Drawing.Point(297, 245);
             this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(6);
             this.bunifuTileButton3.Name = "bunifuTileButton3";
             this.bunifuTileButton3.Size = new System.Drawing.Size(133, 168);
@@ -123,7 +124,7 @@
             this.bunifuTileButton4.ImageZoom = 90;
             this.bunifuTileButton4.LabelPosition = 35;
             this.bunifuTileButton4.LabelText = "Клуб. милкшэйк -100Р";
-            this.bunifuTileButton4.Location = new System.Drawing.Point(6, 58);
+            this.bunifuTileButton4.Location = new System.Drawing.Point(7, 65);
             this.bunifuTileButton4.Margin = new System.Windows.Forms.Padding(6);
             this.bunifuTileButton4.Name = "bunifuTileButton4";
             this.bunifuTileButton4.Size = new System.Drawing.Size(133, 168);
@@ -146,7 +147,7 @@
             this.bunifuTileButton5.ImageZoom = 90;
             this.bunifuTileButton5.LabelPosition = 50;
             this.bunifuTileButton5.LabelText = "Греч.Салат - 230Р";
-            this.bunifuTileButton5.Location = new System.Drawing.Point(296, 58);
+            this.bunifuTileButton5.Location = new System.Drawing.Point(297, 65);
             this.bunifuTileButton5.Margin = new System.Windows.Forms.Padding(6);
             this.bunifuTileButton5.Name = "bunifuTileButton5";
             this.bunifuTileButton5.Size = new System.Drawing.Size(133, 168);
@@ -163,7 +164,7 @@
             this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox1.isPassword = false;
-            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(4, 4);
+            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(5, 11);
             this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
             this.bunifuMetroTextbox1.Size = new System.Drawing.Size(790, 44);
@@ -188,7 +189,7 @@
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(688, 12);
+            this.bunifuThinButton21.Location = new System.Drawing.Point(689, 19);
             this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.Size = new System.Drawing.Size(97, 31);
@@ -214,7 +215,7 @@
             this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.Red;
             this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.IndianRed;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(581, 12);
+            this.bunifuThinButton22.Location = new System.Drawing.Point(582, 19);
             this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton22.Name = "bunifuThinButton22";
             this.bunifuThinButton22.Size = new System.Drawing.Size(97, 31);
@@ -240,7 +241,7 @@
             this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.Location = new System.Drawing.Point(474, 12);
+            this.bunifuThinButton23.Location = new System.Drawing.Point(475, 19);
             this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton23.Name = "bunifuThinButton23";
             this.bunifuThinButton23.Size = new System.Drawing.Size(97, 31);
@@ -252,7 +253,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.label1.Location = new System.Drawing.Point(434, 52);
+            this.label1.Location = new System.Drawing.Point(435, 59);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 21);
             this.label1.TabIndex = 17;
@@ -264,11 +265,20 @@
             this.zakaztextbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.zakaztextbox.Font = new System.Drawing.Font("Century Gothic", 15.75F);
             this.zakaztextbox.ForeColor = System.Drawing.Color.White;
-            this.zakaztextbox.Location = new System.Drawing.Point(438, 78);
+            this.zakaztextbox.Location = new System.Drawing.Point(439, 85);
             this.zakaztextbox.Multiline = true;
             this.zakaztextbox.Name = "zakaztextbox";
             this.zakaztextbox.Size = new System.Drawing.Size(347, 328);
             this.zakaztextbox.TabIndex = 18;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.label2.Location = new System.Drawing.Point(453, 381);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 24);
+            this.label2.TabIndex = 19;
             // 
             // Menu12
             // 
@@ -276,7 +286,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.LightSlateGray;
-            this.Controls.Add(this.zakaztextbox);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bunifuThinButton22);
             this.Controls.Add(this.bunifuThinButton23);
@@ -287,6 +297,7 @@
             this.Controls.Add(this.bunifuTileButton2);
             this.Controls.Add(this.bunifuTileButton1);
             this.Controls.Add(this.bunifuMetroTextbox1);
+            this.Controls.Add(this.zakaztextbox);
             this.Name = "Menu12";
             this.Size = new System.Drawing.Size(800, 784);
             this.ResumeLayout(false);
@@ -308,5 +319,6 @@
         public double sum = 0;
         public char ch;
         private System.Windows.Forms.TextBox zakaztextbox;
+        private System.Windows.Forms.Label label2;
     }
 }
