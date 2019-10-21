@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AIS Cafe.exe" size="10418096">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AIS Cafe.exe" size="10444720">
       <assemblyIdentity name="AIS Cafe" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>BLJFyJYCAnGqtq+i8Hlm+Jf5/gOuuh15hVPvdX/dCcM=</dsig:DigestValue>
+        <dsig:DigestValue>thgtFvgkx+F2VckAElAHLp1R0pZG+oClVo0G+HPJNjY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -80,7 +80,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>JavM1XFF1MSpXZBpYm3BQ+DqYSh1CK24a6RCRgIBw6A=</dsig:DigestValue>
+      <dsig:DigestValue>+DnvoleugLghQixQPvp1FN80L01q0DcVtzvWbs+AlFo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Login_log.ldf" size="8388608" writeableType="applicationData">
@@ -89,7 +89,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>7lg9spREmaKEoT9oLhEEA/hIyxMdEbLqf3YnGc0Wow4=</dsig:DigestValue>
+      <dsig:DigestValue>ihbuQUVUev2x8PbudBRwQ2mNNlAWnJWISiKN73uU7QA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="postavki.mdf" size="8388608" writeableType="applicationData">
