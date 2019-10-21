@@ -42,14 +42,22 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AIS Cafe.exe" size="10418096">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AIS Cafe.exe" size="10444720">
       <assemblyIdentity name="AIS Cafe" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
         <dsig:DigestValue>S7YSRmCfA+fO7ZvZM1KTCF7IwRHvBORNiijgiPLMWGY=</dsig:DigestValue>
+=======
+<<<<<<< HEAD
+        <dsig:DigestValue>thgtFvgkx+F2VckAElAHLp1R0pZG+oClVo0G+HPJNjY=</dsig:DigestValue>
+=======
+        <dsig:DigestValue>QL0zFoy2EWi/ssrWp0vy1BOx3cxEoACq95VZTOpBZ9Y=</dsig:DigestValue>
+>>>>>>> aabd1505d6a60fa2abb58e4c44df57913d218a3b
+>>>>>>> 35fdb5f0509d9e06cd09faf16b6a24dbd2cccc46
       </hash>
     </dependentAssembly>
   </dependency>
@@ -80,7 +88,15 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
       <dsig:DigestValue>tLbetXrL16gPWOvNurLMihQo1Lt2H09mMdlUjJ8zAw8=</dsig:DigestValue>
+=======
+<<<<<<< HEAD
+      <dsig:DigestValue>+DnvoleugLghQixQPvp1FN80L01q0DcVtzvWbs+AlFo=</dsig:DigestValue>
+=======
+      <dsig:DigestValue>oOZigg6KHrxZ56W6gqhJ2pT8FCuMDUhJISIlqf3CoZ0=</dsig:DigestValue>
+>>>>>>> aabd1505d6a60fa2abb58e4c44df57913d218a3b
+>>>>>>> 35fdb5f0509d9e06cd09faf16b6a24dbd2cccc46
     </hash>
   </file>
   <file name="Login_log.ldf" size="8388608" writeableType="applicationData">
@@ -89,7 +105,15 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
       <dsig:DigestValue>Z3naYNRuUxgW8qkQHjRtePoRJWuY9parwMEV86SvDSY=</dsig:DigestValue>
+=======
+<<<<<<< HEAD
+      <dsig:DigestValue>ihbuQUVUev2x8PbudBRwQ2mNNlAWnJWISiKN73uU7QA=</dsig:DigestValue>
+=======
+      <dsig:DigestValue>svnBsqk+VBTK+cwkJSdYBlwuJjRjjLY2VdIe3FqlO58=</dsig:DigestValue>
+>>>>>>> aabd1505d6a60fa2abb58e4c44df57913d218a3b
+>>>>>>> 35fdb5f0509d9e06cd09faf16b6a24dbd2cccc46
     </hash>
   </file>
   <file name="postavki.mdf" size="8388608" writeableType="applicationData">

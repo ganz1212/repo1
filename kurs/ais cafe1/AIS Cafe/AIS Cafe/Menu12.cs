@@ -8,6 +8,11 @@ namespace AIS_Cafe
         public Menu12()
         {
             InitializeComponent();
+            //плюс
+            if (ch == '+')
+                sum += Double.Parse(bunifuMetroTextbox1.Text);
+            bunifuMetroTextbox1.Text = sum.ToString();
+            label2.Text = bunifuMetroTextbox1.Text;
         }
 
         //Для подсчета суммы заказа	
@@ -82,12 +87,54 @@ namespace AIS_Cafe
         private void bunifuThinButton23_Click(object sender, EventArgs e)
         {
             //вывод суммы
-            if (ch == '+')
-                sum += Double.Parse(bunifuMetroTextbox1.Text);
+             if (ch == '+')
+               sum += Double.Parse(bunifuMetroTextbox1.Text);
             bunifuMetroTextbox1.Text = sum.ToString();
             label2.Text = bunifuMetroTextbox1.Text;
 
 
+<<<<<<< HEAD
+
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
+        {
+            // плюс милкшейк
+            
+            bunifuMetroTextbox1.Text +=50;
+            ch = '+';
+            sum = Double.Parse(bunifuMetroTextbox1.Text);
+            bunifuMetroTextbox1.Text = "+";
+            zakaztextbox.Text += "клуб.милкшейк" + Environment.NewLine;
+            
+            
+
+            
+
+        }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            // минус милкшейк
+            zakaztextbox.Text = "";
+        }
+
+        private void bunifuImageButton4_Click(object sender, EventArgs e)
+        {
+            //минус гамбургер
+        }
+
+        private void bunifuImageButton3_Click(object sender, EventArgs e)
+        {
+            // плюс гамбургер
+            bunifuMetroTextbox1.Text +=75;
+            ch = '+';
+            sum = Double.Parse(bunifuMetroTextbox1.Text);
+            bunifuMetroTextbox1.Text = "+";
+            zakaztextbox.Text += "Гамбургер" + Environment.NewLine;
+            
+
+            
+=======
+>>>>>>> aabd1505d6a60fa2abb58e4c44df57913d218a3b
         }
 
      
