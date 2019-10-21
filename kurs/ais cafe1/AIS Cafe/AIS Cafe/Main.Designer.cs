@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -46,11 +45,10 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.postavkiDataSet1 = new AIS_Cafe.postavkiDataSet();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.postavki1231 = new AIS_Cafe.postavki123();
             this.menu121 = new AIS_Cafe.Menu12();
             this.postavshikiUC1 = new AIS_Cafe.postavshikiUC();
+            this.postavki1231 = new AIS_Cafe.postavki123();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).BeginInit();
@@ -77,20 +75,6 @@
             this.bunifuImageButton1.TabStop = false;
             this.bunifuImageButton1.Zoom = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
-            // 
-            // bunifuImageButton2
-            // 
-            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
-            this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(1043, 10);
-            this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.Size = new System.Drawing.Size(27, 23);
-            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton2.TabIndex = 11;
-            this.bunifuImageButton2.TabStop = false;
-            this.bunifuImageButton2.Zoom = 10;
-            this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click);
             // 
             // bunifuThinButton21
             // 
@@ -204,7 +188,6 @@
             this.panel1.Controls.Add(this.bunifuImageButton4);
             this.panel1.Controls.Add(this.bunifuImageButton3);
             this.panel1.Controls.Add(this.bunifuImageButton1);
-            this.panel1.Controls.Add(this.bunifuImageButton2);
             this.panel1.Location = new System.Drawing.Point(0, -1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1111, 44);
@@ -289,14 +272,6 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // postavki1231
-            // 
-            this.postavki1231.Location = new System.Drawing.Point(286, 49);
-            this.postavki1231.Name = "postavki1231";
-            this.postavki1231.Size = new System.Drawing.Size(823, 588);
-            this.postavki1231.TabIndex = 23;
-            this.postavki1231.Visible = false;
-            // 
             // menu121
             // 
             this.menu121.AutoScroll = true;
@@ -312,6 +287,14 @@
             this.postavshikiUC1.Name = "postavshikiUC1";
             this.postavshikiUC1.Size = new System.Drawing.Size(823, 572);
             this.postavshikiUC1.TabIndex = 24;
+            // 
+            // postavki1231
+            // 
+            this.postavki1231.Location = new System.Drawing.Point(286, 49);
+            this.postavki1231.Name = "postavki1231";
+            this.postavki1231.Size = new System.Drawing.Size(823, 588);
+            this.postavki1231.TabIndex = 23;
+            this.postavki1231.Visible = false;
             // 
             // Main
             // 
@@ -336,7 +319,6 @@
             this.Text = "Main";
             this.Load += new System.EventHandler(this.Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).EndInit();
@@ -352,7 +334,6 @@
 
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton24;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton23;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;

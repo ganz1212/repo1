@@ -13,7 +13,7 @@ namespace AIS_Cafe
 {
     public partial class Registration : Form
     {
-        string connectionString = (@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\student\Desktop\kurs\ais cafe1\AIS Cafe\AIS Cafe\Login.mdf;Integrated Security=True");
+        string connectionString = (@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\student\Documents\GitHub\repo1\kurs\ais cafe1\AIS Cafe\AIS Cafe\Login.mdf;Integrated Security = True");
     
         public Registration()
         {
